@@ -1,0 +1,28 @@
+Clean Code
+
+El nombre de una clase no debe ser un verbo.
+Los métodos deben tener nombres de verbo como postPayment, deletePage o save. 
+Los metodos de acceso, de modificacion y los predicados deben tener como nombre 
+su valor y usar como prefijo get, set o is de acuerdo al estándar de javabean.
+
+COMENTARIOS
+En ocasiones es muy util advertir a otros programadores de determinadas consecuencias.
+Cualquier comentario que le obligue a buscar su significado en otro modulo ha fallado en su intento
+de comunicacion y no merece los bits que consume.
+
+No hay nada mas odioso que el codigo comentado, NO LO HAGA!
+
+FORMATO
+La funcionalidad que cree hoy es muy probable que cambie en la siguiente version, pero la
+legibilidad de su codigo afectará profundamente a todos los cambios que realice.
+
+Es una regla muy sencilla con un profundo efecto en el diseño visual del codigo. Cada 
+linea en blanco es una pista visual que identifica un nuevo concepto independiente.
+
+Si una funcion invoca a otra, deben de estar verticalmente proximas, y la funcion de 
+invocacion debe de estar por encima de la invocada siempre que sea posible. De este 
+modo el programa fluye con normalidad.
+
+Una clase no fuerza sus variables a traves de metodos de establecimiento y su recuperacion. Por
+el contrario, muestra interfaces abstractaas que permiten a sus usuarios manipular la esencia de 
+los datos sin necesidad de conocer su implementacion.

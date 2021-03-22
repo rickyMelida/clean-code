@@ -26,3 +26,12 @@ modo el programa fluye con normalidad.
 Una clase no fuerza sus variables a traves de metodos de establecimiento y su recuperacion. Por
 el contrario, muestra interfaces abstractaas que permiten a sus usuarios manipular la esencia de 
 los datos sin necesidad de conocer su implementacion.
+
+Hay que meditar seriamente la forma óptima de representar los datos que contiene un objeto. La
+peor opción es añadir métodos de establecimiento y recuperacion a ciegas.
+
+LEY DE DEMETER
+
+
+Los objetos muestran comportamiento y ocultan datos. Las estructuras de datos muestran datos 
+y carecen de comportamiento significativo

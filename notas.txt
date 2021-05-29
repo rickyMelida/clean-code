@@ -35,3 +35,9 @@ LEY DE DEMETER
 
 Los objetos muestran comportamiento y ocultan datos. Las estructuras de datos muestran datos 
 y carecen de comportamiento significativo
+
+Existen varias formas de clasificar los errores. Podemos hacerlo por
+origen(¿Provienen de uno u otro componente?) o por tipo (¿son fallos 
+del dispositivo, de la red o errores de programacion?). Sin embargo, 
+al definir clases de excepcion en una aplicacion, debemos preocuparnos
+principalmente en como se capturan.
